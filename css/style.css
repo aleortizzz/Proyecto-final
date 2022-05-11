@@ -1,0 +1,143 @@
+.logo-container {
+  display: flex;
+  justify-content: center;
+  border-top: solid goldenrod;
+  border-bottom: solid goldenrod;
+}
+.logo-container .logo {
+  height: 7rem;
+  width: auto;
+}
+
+.header .hamburguesa {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: solid 1PX goldenrod;
+}
+.header .hamburguesa .menu {
+  height: 30px;
+  width: auto;
+}
+.header .nav-link-container .tipo-header {
+  color: goldenrod;
+  border-radius: 20px;
+  transition: 0.3s;
+  padding: 0.5rem;
+}
+.header .nav-link-container .tipo-header:hover {
+  color: rgb(25, 26, 25);
+  background-color: goldenrod;
+  border-radius: 10px;
+  transition: 0.3;
+  transform: scale(1.1);
+}
+@media screen and (max-width: 768px) {
+  .header .nav-link-container .tipo-header:hover {
+    transform: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header .nav-link-container .tipo-header {
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px goldenrod;
+    border-radius: 0%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header .nav-link-container {
+    border-radius: 10px;
+    border: solid 1px goldenrod;
+  }
+}
+
+.body {
+  background-color: rgb(25, 26, 25);
+  margin: 0%;
+  padding: 0%;
+}
+
+.whatsapp {
+  display: flex;
+  height: 5.5rem;
+  width: auto;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 1rem;
+}
+.whatsapp:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.carousel-container {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.boton-container {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(25, 26, 25);
+  color: goldenrod;
+  margin-top: 1rem;
+}
+.boton-container .boton {
+  border: solid goldenrod;
+  color: goldenrod;
+  border-radius: 30px;
+  padding-right: 3.5rem;
+  padding-left: 3.5rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.boton-container .boton:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  background-color: goldenrod;
+  color: rgb(25, 26, 25);
+}
+
+.footer {
+  margin-top: 3.5rem;
+  border-top: solid goldenrod;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.footer .tipo-footer {
+  color: goldenrod;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.footer .tipo-footer:hover {
+  background-color: goldenrod;
+  color: rgb(25, 26, 25);
+  transition: 0.7s;
+}
+
+.subfooter .subfooter-container .redes-container {
+  display: flex;
+}
+.subfooter .subfooter-container .redes-container .redes {
+  display: flex;
+  height: 3rem;
+  width: auto;
+  margin-left: 0.3rem;
+}
+.subfooter .subfooter-container .copyright {
+  color: goldenrod;
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */

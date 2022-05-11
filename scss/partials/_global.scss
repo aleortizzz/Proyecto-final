@@ -1,0 +1,33 @@
+@import '../base/variables';
+
+
+
+
+.body {
+
+   background-color: $colorsecundario;
+   margin: 0%;
+   padding: 0%;
+
+}
+
+.whatsapp {
+   display: flex;
+   height: 5.5rem;
+   width: auto;
+   position: fixed;
+   bottom: 0;
+   right: 0;
+   padding: 1rem;
+
+   &:hover {
+      transform: scale(1.1);
+      transition: 0.3s;
+
+   }
+
+
+}
+
+
+  

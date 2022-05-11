@@ -1,0 +1,65 @@
+@import'../base/variables';
+
+
+.footer {
+    margin-top: 3.5rem;
+    border-top: solid $colorprincpal;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+
+
+    .tipo-footer {
+        color: $colorprincpal;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        border-radius: 10px;
+        transition: 0.3s;
+        
+
+        &:hover {
+            background-color: $colorprincpal;
+            color: $colorsecundario;
+            transition: 0.7s;
+
+        }
+
+    }
+}
+
+.subfooter {
+
+    .subfooter-container {
+        
+
+
+        .redes-container {
+            display: flex;
+           
+
+            .redes {
+                display: flex;
+                height: 3rem;
+                width: auto;
+                margin-left:0.3rem; 
+
+
+
+
+            }
+        }
+
+        .copyright {
+            color: $colorprincpal;
+            display: flex;
+            justify-content: center;
+
+        }
+    }
+
+}

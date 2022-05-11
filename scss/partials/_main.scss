@@ -1,0 +1,46 @@
+@import'../base/variables';
+
+
+
+.carousel-container {
+
+    margin-left: 4rem;
+    margin-right: 4rem;
+
+
+
+}
+
+.boton-container {
+    display: flex;
+    justify-content: center;
+    background-color: $colorsecundario;
+    color: $colorprincpal;
+    margin-top: 1rem;
+
+
+    .boton {
+        border: solid $colorprincpal;
+        color: $colorprincpal;
+        border-radius: 30px;
+        padding-right: 3.5rem;
+        padding-left: 3.5rem;
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+        transition: 0.3s;
+        text-decoration: none;
+
+        &:hover {
+            transform: scale(1.1);
+            transition: 0.3s;
+            background-color: $colorprincpal;
+            color: $colorsecundario;
+
+
+
+
+        }
+
+    }
+
+}
