@@ -1,0 +1,11 @@
+@mixin container ($display,$justify,$align,$color,$padleft,$padright){
+display: $display;
+justify-content: $justify;
+text-align: $align;
+color: $color;
+padding-left: $padleft; 
+padding-right: $padright;
+
+    
+
+}

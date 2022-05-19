@@ -1,0 +1,62 @@
+@import'../base/variables';
+@import'../base/extends';
+@import'../base/mixin';
+
+.main-redes {
+
+
+
+    .h1-redes {
+
+        @include container (flex, center, center, $colorprincpal, 0rem, 0rem);
+        font-size: 2rem;
+        margin-bottom: 3rem;
+
+
+    }
+
+
+    .redes-container {
+        display: flex;
+        justify-content: center;
+
+
+        .imagenes-nuestras-redes {
+            height: 4rem;
+            width: auto;
+            background-color: $colorprincpal;
+            border-radius: 100px;
+            border: solid 3px $colorprincpal;
+
+
+        }
+
+
+    }
+
+
+
+
+    .info-redes {
+        @include container (flex, center, center, white, 15rem, 15rem);
+
+
+    }
+
+    .boton-redes {
+        margin-bottom: 2.5rem;
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+}

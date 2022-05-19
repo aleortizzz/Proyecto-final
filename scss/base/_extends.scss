@@ -1,0 +1,25 @@
+%botonextend {
+
+    border: solid $colorprincpal;
+    color: $colorprincpal;
+    border-radius: 30px;
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    text-decoration: none;
+
+
+    &:hover {
+    
+        background-color: $colorprincpal;
+        color: $colorsecundario;
+
+
+
+
+    }
+
+
+
+}

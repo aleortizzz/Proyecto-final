@@ -71,6 +71,29 @@
   transition: 0.3s;
 }
 
+.boton-cards, .boton-container .boton {
+  border: solid goldenrod;
+  color: goldenrod;
+  border-radius: 30px;
+  padding-right: 3.5rem;
+  padding-left: 3.5rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  text-decoration: none;
+}
+.boton-cards:hover, .boton-container .boton:hover {
+  background-color: goldenrod;
+  color: rgb(25, 26, 25);
+}
+
+.h1-index {
+  color: goldenrod;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
 .carousel-container {
   margin-left: 4rem;
   margin-right: 4rem;
@@ -84,21 +107,11 @@
   margin-top: 1rem;
 }
 .boton-container .boton {
-  border: solid goldenrod;
-  color: goldenrod;
-  border-radius: 30px;
-  padding-right: 3.5rem;
-  padding-left: 3.5rem;
-  padding-top: 0.3rem;
-  padding-bottom: 0.3rem;
   transition: 0.3s;
-  text-decoration: none;
 }
 .boton-container .boton:hover {
   transform: scale(1.1);
   transition: 0.3s;
-  background-color: goldenrod;
-  color: rgb(25, 26, 25);
 }
 
 .footer {
@@ -128,16 +141,189 @@
 .subfooter .subfooter-container .redes-container {
   display: flex;
 }
-.subfooter .subfooter-container .redes-container .redes {
+.subfooter .subfooter-container .redes-container .redesw {
   display: flex;
   height: 3rem;
   width: auto;
   margin-left: 0.3rem;
 }
+.subfooter .subfooter-container .redes-container .redesw:hover {
+  background-color: goldenrod;
+  border: solid 2px green;
+  border-radius: 100px;
+}
+.subfooter .subfooter-container .redes-container .redesl {
+  display: flex;
+  height: 3rem;
+  width: auto;
+  margin-left: 0.3rem;
+}
+.subfooter .subfooter-container .redes-container .redesl:hover {
+  background-color: goldenrod;
+  border: solid 2px aqua;
+  border-radius: 100px;
+}
+.subfooter .subfooter-container .redes-container .redesi {
+  display: flex;
+  height: 3rem;
+  width: auto;
+  margin-left: 0.3rem;
+}
+.subfooter .subfooter-container .redes-container .redesi:hover {
+  background-color: goldenrod;
+  border: solid 2px purple;
+  border-radius: 100px;
+}
+.subfooter .subfooter-container .redes-container .redesf {
+  display: flex;
+  height: 3rem;
+  width: auto;
+  margin-left: 0.3rem;
+}
+.subfooter .subfooter-container .redes-container .redesf:hover {
+  background-color: goldenrod;
+  border: solid 2px blue;
+  border-radius: 100px;
+}
 .subfooter .subfooter-container .copyright {
   color: goldenrod;
   display: flex;
   justify-content: center;
+}
+
+.boton-cards, .boton-container .boton {
+  border: solid goldenrod;
+  color: goldenrod;
+  border-radius: 30px;
+  padding-right: 3.5rem;
+  padding-left: 3.5rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  text-decoration: none;
+}
+.boton-cards:hover, .boton-container .boton:hover {
+  background-color: goldenrod;
+  color: rgb(25, 26, 25);
+}
+
+.boton-cards, .boton-container .boton {
+  border: solid goldenrod;
+  color: goldenrod;
+  border-radius: 30px;
+  padding-right: 3.5rem;
+  padding-left: 3.5rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  text-decoration: none;
+}
+.boton-cards:hover, .boton-container .boton:hover {
+  background-color: goldenrod;
+  color: rgb(25, 26, 25);
+}
+
+main .estilo-h1 {
+  color: goldenrod;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+.cards .cards-style {
+  background-color: rgb(59, 61, 59);
+  border: solid 10px rgb(59, 61, 59);
+  border-radius: 15px;
+  margin: 1rem;
+}
+.cards .cards-style .titulo-card {
+  color: goldenrod;
+  display: flex;
+  justify-content: center;
+}
+.cards .cards-style .tipo-card {
+  margin-top: 2rem;
+  color: goldenrod;
+}
+
+.boton-cards {
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+}
+.boton-cards:hover {
+  display: flex;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.boton-container .boton, .boton-cards {
+  border: solid goldenrod;
+  color: goldenrod;
+  border-radius: 30px;
+  padding-right: 3.5rem;
+  padding-left: 3.5rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  text-decoration: none;
+}
+.boton-container .boton:hover, .boton-cards:hover {
+  background-color: goldenrod;
+  color: rgb(25, 26, 25);
+}
+
+.main-redes .h1-redes {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: goldenrod;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+.main-redes .redes-container {
+  display: flex;
+  justify-content: center;
+}
+.main-redes .redes-container .imagenes-nuestras-redes {
+  height: 4rem;
+  width: auto;
+  background-color: goldenrod;
+  border-radius: 100px;
+  border: solid 3px goldenrod;
+}
+.main-redes .info-redes {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+.main-redes .boton-redes {
+  margin-bottom: 2.5rem;
+}
+
+.contenido-nosotros {
+  background-color: grey;
+  border-radius: 10px;
+  border: 3px solid rgb(0, 0, 0);
+  margin-left: 40%;
+  margin-right: 40%;
+}
+.contenido-nosotros .encabezado {
+  background-color: goldenrod;
+  font-size: 1.7rem;
+  text-align: center;
+}
+.contenido-nosotros .info-card {
+  padding-bottom: 7rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

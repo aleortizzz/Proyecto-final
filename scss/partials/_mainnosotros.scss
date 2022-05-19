@@ -1,0 +1,39 @@
+@import '../base/mapa';
+@import'../base/variables';
+
+
+
+
+.contenido-nosotros {
+    background-color: map-get($mapa-nosotros, bg-card);
+    border-radius: map-get($mapa-nosotros , border-radius);
+    border: map-get($mapa-nosotros, border );
+    
+  
+    margin-left: 40%;
+    margin-right: 40%;
+
+ 
+
+
+    .encabezado {
+        background-color: map-get($mapa-nosotros, bg-encabezado);
+        font-size: map-get($mapa-nosotros, font-encabezado );
+        text-align: center;
+        
+
+
+    }
+
+    .info-card {
+        font-size: map-get($mapa-nosotros, font-size );
+        padding-bottom: 7rem;
+        text-align: center;
+        margin-top: 1rem;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+
+
+}

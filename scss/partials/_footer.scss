@@ -42,11 +42,76 @@
             display: flex;
            
 
-            .redes {
+            .redesw {
                 display: flex;
                 height: 3rem;
                 width: auto;
                 margin-left:0.3rem; 
+                
+
+                &:hover{
+
+                    background-color: $colorprincpal;
+                    border: solid 2px green;
+                    border-radius: 100px;
+            
+                }
+
+
+
+
+            }
+            .redesl {
+                display: flex;
+                height: 3rem;
+                width: auto;
+                margin-left:0.3rem; 
+                
+
+                &:hover{
+
+                    background-color: $colorprincpal;
+                    border: solid 2px aqua;
+                    border-radius: 100px;
+            
+                }
+
+
+
+
+            }
+            .redesi {
+                display: flex;
+                height: 3rem;
+                width: auto;
+                margin-left:0.3rem; 
+                
+
+                &:hover{
+
+                    background-color: $colorprincpal;
+                    border: solid 2px purple;
+                    border-radius: 100px;
+            
+                }
+
+
+
+
+            }
+            .redesf {
+                display: flex;
+                height: 3rem;
+                width: auto;
+                margin-left:0.3rem; 
+                
+
+                &:hover{
+                    background-color: $colorprincpal;
+                    border: solid 2px blue;
+                    border-radius: 100px;
+            
+                }
 
 
 
