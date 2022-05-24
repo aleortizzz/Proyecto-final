@@ -2,22 +2,29 @@
 @import'../base/extends';
 
 
-.h1-index{
-color: $colorprincpal;
-display: flex;
-justify-content: center;
-font-size: 2rem;
-margin-bottom: 3rem;
+.h1-index {
+    color: $colorprincpal;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
 
 
 }
-.carousel-container {
 
-    margin-left: 4rem;
-    margin-right: 4rem;
+.carrouselxd {
+    display: flex;
+    justify-content: center;
 
 
 
+
+
+    .carousel-container {
+
+        width: 1280px;
+        height: 600px;
+    }
 }
 
 .boton-container {
@@ -31,7 +38,7 @@ margin-bottom: 3rem;
     .boton {
         @extend %botonextend;
         transition: 0.3s;
-    
+
 
 
         &:hover {
@@ -44,5 +51,15 @@ margin-bottom: 3rem;
 
         }
     }
+
+}
+
+
+.carrouselxd {
+    display: flex;
+    justify-content: center;
+
+
+
 
 }

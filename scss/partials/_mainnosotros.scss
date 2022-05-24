@@ -2,38 +2,47 @@
 @import'../base/variables';
 
 
+.main-nosotros {
 
 
-.contenido-nosotros {
-    background-color: map-get($mapa-nosotros, bg-card);
-    border-radius: map-get($mapa-nosotros , border-radius);
-    border: map-get($mapa-nosotros, border );
-    
-  
-    margin-left: 40%;
-    margin-right: 40%;
 
- 
+    .h1-nosotros {
 
-
-    .encabezado {
-        background-color: map-get($mapa-nosotros, bg-encabezado);
-        font-size: map-get($mapa-nosotros, font-encabezado );
-        text-align: center;
-        
-
+        @include container (flex, center, center, $colorprincpal, 0rem, 0rem);
+        font-size: 2rem;
+        margin-bottom: 3rem;
 
     }
 
-    .info-card {
-        font-size: map-get($mapa-nosotros, font-size );
-        padding-bottom: 7rem;
-        text-align: center;
-        margin-top: 1rem;
-        margin-right: 20px;
-        margin-left: 20px;
-    }
+    .titulo-nosotros {
+        color: $colorprincpal;
+        font-size: 1.5rem;
+        margin-left: 2rem;
+        @media only screen and (max-width:768px){
+            display: flex;
+            justify-content: center;
+            
+        }
 
+       
+    }
+    .texto-nosotros {
+        color: rgb(247, 203, 152);
+        font-size: 1rem;
+        margin-left: 1rem;
+        margin-bottom: 4rem;
+        margin-top: 2rem;
+
+        @media only screen and (max-width:768px){
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            
+        }
+
+      
+
+    }
 
 
 }

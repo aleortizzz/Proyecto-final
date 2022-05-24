@@ -19,6 +19,7 @@
     .redes-container {
         display: flex;
         justify-content: center;
+       margin-bottom: 1rem;
 
 
         .imagenes-nuestras-redes {
@@ -38,14 +39,15 @@
 
 
     .info-redes {
-        @include container (flex, center, center, white, 15rem, 15rem);
+        @include container (flex, center, center, $colortexto, 15rem, 15rem);
 
 
     }
 
     .boton-redes {
-        margin-bottom: 2.5rem;
-
+        margin-top: 1rem;
+        margin-bottom: 6rem;
+  
 
 
     }
