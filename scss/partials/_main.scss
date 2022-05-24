@@ -24,6 +24,13 @@
 
         width: 1280px;
         height: 600px;
+
+        @media only screen and (max-width: 768px) {
+            
+            width: 640px;
+            height: 300px;
+
+        }
     }
 }
 
@@ -33,6 +40,13 @@
     background-color: $colorsecundario;
     color: $colorprincpal;
     margin-top: 1rem;
+
+    @media only screen and (max-width:768px) {
+        margin-top: 3rem;
+        
+    }
+
+   
 
 
     .boton {
@@ -61,5 +75,15 @@
 
 
 
+
+}
+
+.tamano-carrousel{
+@media only screen and (max-width:768px) {
+    width: 640px;
+height: 300px;
+    
+    
+}
 
 }

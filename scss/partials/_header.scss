@@ -36,6 +36,20 @@
 
     .nav-link-container {
 
+        .active-nav {
+            color: rgb(148, 112, 23);
+
+            @media screen and (max-width:768px) {
+                display: flex;
+                justify-content: center;
+                border-bottom: solid 1px $colorprincpal;
+                border-radius: 0%;
+
+            }
+
+
+
+        }
 
         .tipo-header {
 
@@ -49,7 +63,7 @@
             &:hover {
                 color: $colorsecundario;
                 background-color: $colorprincpal;
-                border-radius: 10px;
+                border-radius: 5px;
                 transition: 0.3;
                 transform: scale(1.1);
 
@@ -69,6 +83,7 @@
                 border-radius: 0%;
 
             }
+
 
 
         }
