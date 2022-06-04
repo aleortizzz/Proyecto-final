@@ -7,7 +7,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    
+
 
 
     .tipo-footer {
@@ -20,7 +20,7 @@
         margin-right: 3rem;
         border-radius: 10px;
         transition: 0.3s;
-        
+
 
         &:hover {
             background-color: $colorprincpal;
@@ -35,88 +35,117 @@
 .subfooter {
 
     .subfooter-container {
-        
+
 
 
         .redes-container {
             display: flex;
 
-            @media only screen and (max-width:768px){
+            @media only screen and (max-width:768px) {
                 justify-content: center;
                 margin-bottom: 2rem;
-                
+
             }
-           
+
 
             .redesw {
                 display: flex;
                 height: 3rem;
                 width: auto;
-                margin-left:0.3rem; 
-                
+                margin-left: 0.3rem;
+                border-radius: 100%;
+                background-color: $colorprincpal;
+                border: solid 1px $colorprincpal;
+                transition: 0.3s;
 
-                &:hover{
+
+
+                &:hover {
 
                     background-color: $colorprincpal;
-                    border: solid 2px white;
-                    border-radius: 100px;
-            
+                    background-color: #25D366;
+                    border-radius: 100%;
+                    border: solid 3px #25D366;
+                    transition: 0.3;
+
                 }
 
 
 
 
             }
+
             .redesl {
                 display: flex;
                 height: 3rem;
                 width: auto;
-                margin-left:0.3rem; 
-                
+                margin-left: 0.3rem;
+                border-radius: 100%;
+                background-color: $colorprincpal;
+                border: solid 1px $colorprincpal;
+                transition: 0.3s;
 
-                &:hover{
+
+                &:hover {
 
                     background-color: $colorprincpal;
-                    border: solid 2px white;
-                    border-radius: 100px;
-            
+                    background-color: #0e76a8;
+                    border: solid 3px #0e76a8;
+                    border-radius: 100%;
+                    transition: 0.3s;
                 }
 
 
 
 
             }
+
             .redesi {
                 display: flex;
                 height: 3rem;
                 width: auto;
-                margin-left:0.3rem; 
-                
+                margin-left: 0.3rem;
+                border-radius: 100%;
+                background-color: $colorprincpal;
+                border: solid 1px $colorprincpal;
+                transition: 0.3s;
 
-                &:hover{
+
+
+                &:hover {
 
                     background-color: $colorprincpal;
-                    border: solid 2px white;
-                    border-radius: 100px;
-            
+                    background-color: #DD2A7B;
+                    border: solid 3px #DD2A7B;
+                    border-radius: 100%;
+                    transition: 0.3s;
+
                 }
 
 
 
 
             }
+
             .redesf {
                 display: flex;
                 height: 3rem;
                 width: auto;
-                margin-left:0.3rem; 
-                
+                margin-left: 0.3rem;
+                border-radius: 100%;
+                background-color: $colorprincpal;
+                border: solid 1px $colorprincpal; 
+                transition: 0.3s;
 
-                &:hover{
+
+
+
+                &:hover {
                     background-color: $colorprincpal;
-                    border: solid 2px white;
-                    border-radius: 100px;
-            
+                    background-color: #3b5998;
+                    border: solid 3px #3b5998;
+                    border-radius: 100%;
+                    transition: 0.3s;
                 }
 
 
@@ -126,9 +155,11 @@
         }
 
         .copyright {
-            color: $colorprincpal;
+            color: rgb(59, 61, 59);
             display: flex;
             justify-content: center;
+            text-decoration: underline;
+
 
         }
     }

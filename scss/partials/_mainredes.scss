@@ -7,6 +7,7 @@
 
 
     .h1-redes {
+        margin-top: 3rem;
 
         @include container (flex, center, center, $colorprincpal, 0rem, 0rem);
         font-size: 2rem;

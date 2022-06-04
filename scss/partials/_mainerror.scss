@@ -1,0 +1,121 @@
+@import '../base/mapa';
+@import'../base/variables';
+
+
+
+.error-container {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+
+
+    .fondo {
+        z-index: 1;
+        position: absolute;
+        overflow: hidden;
+
+
+
+
+
+    }
+
+    .textos {
+        z-index: 1;
+        background-color: rgba(218, 165, 32, 0.466);
+        width: 700px;
+        height: 350px;
+        margin-top: 400px;
+        margin-right: 1000px;
+        align-items: center;
+        box-shadow: 1px 9px 39px 6px rgba(0, 0, 0, 0.64);
+        -webkit-box-shadow: 1px 9px 39px 6px rgba(0, 0, 0, 0.64);
+        -moz-box-shadow: 1px 9px 39px 6px rgba(0, 0, 0, 0.64);
+        border-radius: 30px;
+
+
+        .texto1 {
+            margin-left: 10px;
+            font-size: 7rem;
+            color: $colorprincpal;
+
+
+        }
+
+        .texto2 {
+            font-size: 2rem;
+            color: white;
+            text-align: center;
+        }
+
+        .texto3 {
+            font-size: 1.5rem;
+            color: white;
+            text-align: center;
+
+        }
+
+        .estilo-inicio {
+            color: $colorprincpal;
+            transition: 0.2s;
+
+
+            &:hover {
+                color: $colorsecundario;
+                text-align: center;
+
+
+
+            }
+
+        }
+
+    }
+
+    .boton-error {
+        z-index: 1;
+        display: flex;
+        height: 5.5rem;
+        width: auto;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        padding: 1rem;
+        margin-right: 40rem;
+        margin-bottom: 4rem;
+        align-items: center;
+
+        .boton2 {
+            border: solid $colorprincpal;
+            color: $colorprincpal;
+            border-radius: 30px;
+            padding-right: 3.5rem;
+            padding-left: 3.5rem;
+            padding-top: 0.3rem;
+            padding-bottom: 0.3rem;
+            text-decoration: none;
+            transition: 0.2s;
+
+
+            &:hover {
+
+                background-color: $colorprincpal;
+                color: $colorsecundario;
+
+
+
+
+            }
+
+
+
+        }
+
+
+
+    }
+
+
+
+
+}

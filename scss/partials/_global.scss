@@ -4,12 +4,25 @@
 
 
 .body {
-
    background-color: $colorsecundario;
    margin: 0%;
    padding: 0%;
 
 }
+body::-webkit-scrollbar{
+   width: 10px;
+ 
+
+}
+
+body::-webkit-scrollbar-thumb{
+   background-color: $colorprincpal;
+   border-radius: 10px;
+   border: solid 3px $colorsecundario;
+  
+
+}
+
 
 .whatsapp {
    display: flex;
@@ -19,6 +32,7 @@
    bottom: 0;
    right: 0;
    padding: 1rem;
+   transition: 0.3s;
 
    &:hover {
       transform: scale(1.1);
@@ -29,5 +43,27 @@
 
 }
 
+.subir-foto {
+   border: solid 1px goldenrod;
+   border-radius: 100%;
+   background-color: $colorprincpal;
+   height: 2.5rem;
+   width: auto;
+   margin-right: 1.5rem;
+   margin-bottom: 1rem;
+   display: flex;
+   position: fixed;
+   bottom: 5rem;
+   right: 0;
+   opacity: 50%;
+   transition: 0.3s;
 
-  
+   &:hover {
+      opacity: 100%;
+      transition: 0.3s;
+
+   }
+
+}
+
+
