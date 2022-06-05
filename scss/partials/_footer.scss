@@ -8,6 +8,15 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 
+    @media only screen and (max-width: 320px) {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+
+    }
+
+
+
 
 
     .tipo-footer {
@@ -20,6 +29,7 @@
         margin-right: 3rem;
         border-radius: 10px;
         transition: 0.3s;
+
 
 
         &:hover {
@@ -46,6 +56,10 @@
                 margin-bottom: 2rem;
 
             }
+
+
+
+
 
 
             .redesw {
@@ -134,7 +148,7 @@
                 margin-left: 0.3rem;
                 border-radius: 100%;
                 background-color: $colorprincpal;
-                border: solid 1px $colorprincpal; 
+                border: solid 1px $colorprincpal;
                 transition: 0.3s;
 
 
