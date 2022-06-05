@@ -115,6 +115,11 @@ body::-webkit-scrollbar-thumb {
   transform: scale(1.1);
   transition: 0.3s;
 }
+@media only screen and (max-width: 480px) {
+  .whatsapp {
+    display: none;
+  }
+}
 
 .subir-foto {
   border: solid 1px goldenrod;
@@ -135,6 +140,11 @@ body::-webkit-scrollbar-thumb {
   opacity: 100%;
   transition: 0.3s;
 }
+@media only screen and (max-width: 480px) {
+  .subir-foto {
+    display: none;
+  }
+}
 
 .boton-cards, .boton-container .boton {
   border: solid goldenrod;
@@ -145,6 +155,12 @@ body::-webkit-scrollbar-thumb {
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
   text-decoration: none;
+}
+@media only screen and (max-width: 479px) {
+  .boton-cards, .boton-container .boton {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 .boton-cards:hover, .boton-container .boton:hover {
   background-color: goldenrod;
@@ -168,13 +184,19 @@ body::-webkit-scrollbar-thumb {
   width: 1280px;
   height: 600px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1328px) {
+  .carrouselxd .carousel-container {
+    width: 1200px;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 1327px) {
   .carrouselxd .carousel-container {
     width: 640px;
     height: 300px;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 767px) {
   .carrouselxd .carousel-container {
     width: 320px;
     height: 150px;
@@ -208,13 +230,19 @@ body::-webkit-scrollbar-thumb {
   transition: 0.3s;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1328px) {
+  .tamano-carrousel {
+    width: 1200px;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 1326px) {
   .tamano-carrousel {
     width: 640px;
     height: 300px;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 767px) {
   .tamano-carrousel {
     width: 320px;
     height: 150px;
@@ -234,10 +262,11 @@ body::-webkit-scrollbar-thumb {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 479px) {
   .footer {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    margin-bottom: 1rem;
   }
 }
 .footer .tipo-footer {
@@ -351,6 +380,12 @@ body::-webkit-scrollbar-thumb {
   padding-bottom: 0.3rem;
   text-decoration: none;
 }
+@media only screen and (max-width: 479px) {
+  .boton-cards, .boton-container .boton {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
 .boton-cards:hover, .boton-container .boton:hover {
   background-color: goldenrod;
   color: rgb(25, 26, 25);
@@ -365,6 +400,12 @@ body::-webkit-scrollbar-thumb {
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
   text-decoration: none;
+}
+@media only screen and (max-width: 479px) {
+  .boton-cards, .boton-container .boton {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 .boton-cards:hover, .boton-container .boton:hover {
   background-color: goldenrod;
@@ -434,6 +475,12 @@ main .estilo-h1 {
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
   text-decoration: none;
+}
+@media only screen and (max-width: 479px) {
+  .boton-container .boton, .boton-cards {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 .boton-container .boton:hover, .boton-cards:hover {
   background-color: goldenrod;

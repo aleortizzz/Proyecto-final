@@ -40,6 +40,12 @@ body::-webkit-scrollbar-thumb{
 
    }
 
+   @media only screen and (max-width: 480px) {
+            
+      display: none;
+  
+  }
+
 
 }
 
@@ -57,12 +63,19 @@ body::-webkit-scrollbar-thumb{
    right: 0;
    opacity: 50%;
    transition: 0.3s;
+   
 
    &:hover {
       opacity: 100%;
       transition: 0.3s;
 
    }
+   
+   @media only screen and (max-width: 480px) {
+            
+      display: none;
+  
+  }
 
 }
 
