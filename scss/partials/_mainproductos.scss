@@ -21,18 +21,48 @@ main {
 
 
 .cards {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
 
-    @media only screen and (max-width:768px) {
-        display: inline-block;
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
-    
 
-       
+    @media only screen and (max-width:1300px) {
+
+
+        grid-template-columns: 1fr 1fr 1fr;
+
+
+
+
 
     }
+
+    @media only screen and (max-width:1000px) {
+
+
+        grid-template-columns: 1fr 1fr;
+
+
+
+
+    }
+
+
+    @media only screen and (max-width:768px) {
+        grid-template-columns: 1fr;
+
+
+
+
+
+    }
+
+
+
+
+
+
+
 
     .cards-style {
         background-color: rgb(59, 61, 59);
