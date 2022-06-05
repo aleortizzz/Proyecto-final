@@ -502,8 +502,6 @@ main .estilo-h1 {
   justify-content: center;
   text-align: center;
   color: goldenrod;
-  padding-left: 0rem;
-  padding-right: 0rem;
   font-size: 2rem;
   margin-bottom: 3rem;
 }
@@ -524,8 +522,6 @@ main .estilo-h1 {
   justify-content: center;
   text-align: center;
   color: rgb(247, 203, 152);
-  padding-left: 15rem;
-  padding-right: 15rem;
 }
 .main-redes .boton-redes {
   margin-top: 1rem;
@@ -538,8 +534,6 @@ main .estilo-h1 {
   justify-content: center;
   text-align: center;
   color: goldenrod;
-  padding-left: 0rem;
-  padding-right: 0rem;
   font-size: 2rem;
   margin-bottom: 3rem;
 }
