@@ -10,31 +10,34 @@
   width: auto;
 }
 
-.header .hamburguesa {
+@media only screen and (max-width: 991px) {
+  .ocultarheader {
+    display: none;
+  }
+}
+.ocultarheader .header .hamburguesa {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: solid 1PX goldenrod;
 }
-.header .hamburguesa .menu {
+.ocultarheader .header .hamburguesa .menu {
   height: 30px;
   width: auto;
 }
-
-body {
+.ocultarheader body {
   font-family: sans-serif;
 }
-
-ul {
+.ocultarheader ul {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
 }
-ul .animacion-nav {
+.ocultarheader ul .animacion-nav {
   list-style: none;
 }
-ul .animacion-nav a {
+.ocultarheader ul .animacion-nav a {
   position: relative;
   display: block;
   margin: 20px 0;
@@ -47,7 +50,7 @@ ul .animacion-nav a {
   transition: 0.5s;
   z-index: 1;
 }
-ul .animacion-nav a:before {
+.ocultarheader ul .animacion-nav a:before {
   content: "";
   position: absolute;
   top: 0;
@@ -60,7 +63,7 @@ ul .animacion-nav a:before {
   opacity: 0;
   transition: 0.3s;
 }
-ul .animacion-nav a:after {
+.ocultarheader ul .animacion-nav a:after {
   content: "";
   position: absolute;
   top: 2px;
@@ -73,14 +76,14 @@ ul .animacion-nav a:after {
   transition: 0.3s;
   z-index: -1;
 }
-ul .animacion-nav a:hover {
+.ocultarheader ul .animacion-nav a:hover {
   color: black;
 }
-ul .animacion-nav a:hover:before {
+.ocultarheader ul .animacion-nav a:hover:before {
   transform: scaleY(1);
   opacity: 1;
 }
-ul .animacion-nav a:hover:after {
+.ocultarheader ul .animacion-nav a:hover:after {
   transform: scaleY(1);
   opacity: 1;
 }
@@ -708,6 +711,67 @@ main .estilo-h1 {
 .error-container .boton-error .boton2:hover {
   background-color: goldenrod;
   color: rgb(25, 26, 25);
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  border-top: solid goldenrod;
+  border-bottom: solid goldenrod;
+}
+.logo-container .logo {
+  height: 7rem;
+  width: auto;
+}
+
+.ocultarheader2 {
+  display: none;
+}
+@media only screen and (max-width: 991px) {
+  .ocultarheader2 {
+    display: contents;
+  }
+}
+.ocultarheader2 .header2 .hamburguesa {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: solid 1PX goldenrod;
+}
+.ocultarheader2 .header2 .hamburguesa .menu {
+  height: 30px;
+  width: auto;
+}
+.ocultarheader2 .header2 .nav-link-container .tipo-header {
+  color: goldenrod;
+  border-radius: 20px;
+  transition: 0.3s;
+  padding: 0.5rem;
+}
+.ocultarheader2 .header2 .nav-link-container .tipo-header:hover {
+  color: rgb(25, 26, 25);
+  background-color: goldenrod;
+  border-radius: 10px;
+  transition: 0.3;
+  transform: scale(1.1);
+}
+@media screen and (max-width: 1000px) {
+  .ocultarheader2 .header2 .nav-link-container .tipo-header:hover {
+    transform: none;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .ocultarheader2 .header2 .nav-link-container .tipo-header {
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px goldenrod;
+    border-radius: 0%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .ocultarheader2 .header2 .nav-link-container {
+    border-radius: 10px;
+    border: solid 1px goldenrod;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

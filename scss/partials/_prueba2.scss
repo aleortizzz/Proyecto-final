@@ -1,0 +1,94 @@
+@import '../base/variables';
+
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    border-top: solid $colorprincpal;
+    border-bottom: solid $colorprincpal;
+
+    .logo {
+        height: 7rem;
+        width: auto;
+
+
+    }
+
+}
+
+
+.ocultarheader2 {
+    display: none;
+
+    @media only screen and (max-width: 991px){
+        display: contents;
+        
+    }
+  
+
+
+    .header2 {
+
+        .hamburguesa {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            border: solid 1PX $colorprincpal;
+
+            .menu {
+                height: 30px;
+                width: auto;
+            }
+        }
+
+
+
+
+        .nav-link-container {
+
+
+            .tipo-header {
+
+                color: $colorprincpal;
+                border-radius: 20px;
+                transition: 0.3s;
+                padding: 0.5rem;
+
+
+
+                &:hover {
+                    color: $colorsecundario;
+                    background-color: $colorprincpal;
+                    border-radius: 10px;
+                    transition: 0.3;
+                    transform: scale(1.1);
+
+
+                    @media screen and (max-width:1000px) {
+                        transform: none;
+
+
+                    }
+
+                }
+
+                @media screen and (max-width:1000px) {
+                    display: flex;
+                    justify-content: center;
+                    border-bottom: solid 1px $colorprincpal;
+                    border-radius: 0%;
+
+                }
+
+
+            }
+
+            @media screen and (max-width:1000px) {
+
+                border-radius: 10px;
+                border: solid 1px $colorprincpal;
+
+            }
+        }
+
+    }
+}
