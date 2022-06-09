@@ -578,41 +578,42 @@ main .estilo-h1 {
 
 .main-ubicacion {
   display: flex;
-  margin-top: 3rem;
+  margin-top: 2rem;
   justify-content: center;
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 1800px) {
   .main-ubicacion {
+    display: flex;
     display: inline-block;
-    justify-content: center;
+    width: 100%;
   }
 }
 .main-ubicacion .mapa-container {
   margin-left: 7rem;
   border-right: solid 3px goldenrod;
   padding-right: 4rem;
-  background-color: rebeccapurple;
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 1800px) {
   .main-ubicacion .mapa-container {
     margin: 0%;
-    padding: 0;
+    padding: 0%;
     border-right: none;
-    width: 300px;
+    border-bottom: solid 3px goldenrod;
+    width: auto;
     display: flex;
     justify-content: center;
-    margin-left: 5px;
-    margin-right: 5px;
+    padding-bottom: 3rem;
   }
 }
 .main-ubicacion .mapa-container .mapa {
-  height: 500PX;
+  height: 500px;
   width: 800px;
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 1800px) {
   .main-ubicacion .mapa-container .mapa {
-    width: 300px;
-    display: flex;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
   }
 }
 .main-ubicacion .text-container {
@@ -623,19 +624,24 @@ main .estilo-h1 {
   width: 700px;
   margin-left: 5rem;
   text-align: center;
-  background-color: red;
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 1800px) {
   .main-ubicacion .text-container {
-    height: 200px;
-    width: 200px;
-    margin: 0;
-    padding: 0;
+    width: auto;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
   }
 }
 .main-ubicacion .text-container .text {
   margin-top: 8rem;
   color: rgb(247, 203, 152);
+}
+@media only screen and (max-width: 450px) {
+  .main-ubicacion .text-container .text {
+    margin-top: 4rem;
+  }
 }
 
 .error-container {
