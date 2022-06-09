@@ -50,7 +50,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 .subir-foto {
-   border: solid 1px goldenrod;
+   border: solid 1px $colorprincpal;
    border-radius: 100%;
    background-color: $colorprincpal;
    height: 2.5rem;
@@ -70,7 +70,6 @@ body::-webkit-scrollbar-thumb{
       transition: 0.3s;
 
    }
-   
    @media only screen and (max-width: 480px) {
             
       display: none;
