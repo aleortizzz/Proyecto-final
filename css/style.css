@@ -831,29 +831,81 @@ main .estilo-h1 {
   background-color: rgb(59, 61, 59);
 }
 
-.imagen {
-  width: 500px;
-  height: auto;
+.contenedor-principal {
+  display: flex;
+  margin-top: 3rem;
 }
-
-.estilo-titulo {
+@media only screen and (max-width: 1000px) {
+  .contenedor-principal {
+    display: inline-block;
+  }
+}
+.contenedor-principal .imagen {
+  width: 500px;
+  height: 500px;
+}
+@media only screen and (max-width: 1000px) {
+  .contenedor-principal .imagen {
+    margin-top: 3rem;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .contenedor-principal .imagen {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .contenedor-principal .imagen {
+    width: 230px;
+    height: 230px;
+  }
+}
+.contenedor-principal .estilo-titulo {
   color: goldenrod;
   margin-left: 3rem;
   font-size: 2rem;
 }
-
-.estilo-descripcion {
+@media only screen and (max-width: 1000px) {
+  .contenedor-principal .estilo-titulo {
+    display: none;
+  }
+}
+.contenedor-principal .estilo-titulo-mobile {
+  display: none;
+}
+@media only screen and (max-width: 1000px) {
+  .contenedor-principal .estilo-titulo-mobile {
+    display: contents;
+    color: goldenrod;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .contenedor-principal .estilo-titulo-mobile {
+    font-size: 1rem;
+  }
+}
+.contenedor-principal .estilo-caracteristicas {
   color: goldenrod;
-  margin-top: 3rem;
+  margin-top: 2rem;
+  margin-left: 5rem;
+  font-size: 1.5rem;
 }
-
-.estilo-productos {
+@media only screen and (max-width: 1000px) {
+  .contenedor-principal .estilo-caracteristicas {
+    margin-left: 0rem;
+  }
+}
+.contenedor-principal .caracteristicas {
   color: rgb(247, 203, 152);
+  margin-left: 6rem;
 }
-
-.contenedor-principal {
-  display: flex;
-  margin-top: 3rem;
+@media only screen and (max-width: 1000px) {
+  .contenedor-principal .caracteristicas {
+    margin-left: 0rem;
+  }
 }
 
 .boton-container {
@@ -868,6 +920,7 @@ main .estilo-h1 {
   padding: 0.5rem;
   border: solid 1px goldenrod;
   border-radius: 3px;
+  font-size: 2rem;
 }
 .boton-productos:hover {
   transition: 0.3s;
@@ -877,16 +930,13 @@ main .estilo-h1 {
   border: solid 1px #25d366;
 }
 
-.estilo-caracteristicas {
+.estilo-descripcion {
   color: goldenrod;
-  margin-top: 2rem;
-  margin-left: 5rem;
-  font-size: 1.5rem;
+  margin-top: 3rem;
 }
 
-.caracteristicas {
+.estilo-productos {
   color: rgb(247, 203, 152);
-  margin-left: 6rem;
 }
 
 /*# sourceMappingURL=style.css.map */

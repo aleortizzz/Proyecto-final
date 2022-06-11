@@ -3,32 +3,94 @@
 
 
 
-.imagen {
-    width: 500px;
-    height: auto;
-}
 
-.estilo-titulo {
-    color: $colorprincpal;
-    margin-left: 3rem;
-    font-size: 2rem;
-
-}
-
-.estilo-descripcion {
-    color: $colorprincpal;
-    margin-top: 3rem;
-}
-
-.estilo-productos {
-
-
-    color: rgb(247, 203, 152);
-}
 
 .contenedor-principal {
     display: flex;
     margin-top: 3rem;
+
+    @media only screen and (max-width:1000px) {
+        display: inline-block;
+
+    }
+
+    .imagen {
+        width: 500px;
+        height: 500px;
+
+        @media only screen and (max-width: 1000px) {
+            margin-top: 3rem;
+
+        }
+
+        @media only screen and (max-width:550px) {
+            width: 300px;
+            height: 300px;
+
+        }
+
+        @media only screen and (max-width: 350px) {
+            width: 230px;
+            height: 230px;
+
+        }
+
+        ;
+    }
+
+    .estilo-titulo {
+        color: $colorprincpal;
+        margin-left: 3rem;
+        font-size: 2rem;
+
+        @media only screen and (max-width: 1000px) {
+            display: none;
+
+
+        }
+
+    }
+
+    .estilo-titulo-mobile {
+        display: none;
+
+        @media only screen and (max-width: 1000px) {
+            display: contents;
+            color: $colorprincpal;
+            font-size: 1.5rem;
+            padding-bottom: 2rem;
+
+        }
+
+        @media only screen and (max-width:600px) {
+            font-size: 1rem;
+        }
+
+    }
+
+    .estilo-caracteristicas {
+        color: $colorprincpal;
+        margin-top: 2rem;
+        margin-left: 5rem;
+        font-size: 1.5rem;
+        @media only screen and (max-width:1000px) {
+            margin-left: 0rem;
+        }
+    }
+
+
+
+    .caracteristicas {
+        color: rgb(247, 203, 152);
+        margin-left: 6rem;
+
+        @media only screen and (max-width:1000px) {
+            margin-left: 0rem;
+        }
+
+
+    }
+
 }
 
 .boton-container {
@@ -45,6 +107,7 @@
     padding: 0.5rem;
     border: solid 1px $colorprincpal;
     border-radius: 3px;
+    font-size: 2rem;
 
 
 
@@ -54,25 +117,20 @@
         color: $colorsecundario;
         background-color: #25d366;
         border-radius: 10px;
-        border:solid 1px #25d366;
-
-
-
+        border: solid 1px #25d366;
 
 
     }
 }
 
-.estilo-caracteristicas {
+.estilo-descripcion {
     color: $colorprincpal;
-    margin-top: 2rem;
-    margin-left: 5rem;
-    font-size: 1.5rem;
+    margin-top: 3rem;
 }
 
 
-.caracteristicas {
-    color: rgb(247, 203, 152);
-    margin-left: 6rem;
+.estilo-productos {
 
+
+    color: rgb(247, 203, 152);
 }
