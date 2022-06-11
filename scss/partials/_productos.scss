@@ -1,0 +1,78 @@
+@import '../base/mapa';
+@import'../base/variables';
+
+
+
+.imagen {
+    width: 500px;
+    height: auto;
+}
+
+.estilo-titulo {
+    color: $colorprincpal;
+    margin-left: 3rem;
+    font-size: 2rem;
+
+}
+
+.estilo-descripcion {
+    color: $colorprincpal;
+    margin-top: 3rem;
+}
+
+.estilo-productos {
+
+
+    color: rgb(247, 203, 152);
+}
+
+.contenedor-principal {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.boton-container {
+    margin-top: 2rem;
+    width: auto;
+
+
+}
+
+.boton-productos {
+    transition: 0.3s;
+    color: $colorprincpal;
+    background-color: $colorsecundario;
+    padding: 0.5rem;
+    border: solid 1px $colorprincpal;
+    border-radius: 3px;
+
+
+
+
+    &:hover {
+        transition: 0.3s;
+        color: $colorsecundario;
+        background-color: #25d366;
+        border-radius: 10px;
+        border:solid 1px #25d366;
+
+
+
+
+
+    }
+}
+
+.estilo-caracteristicas {
+    color: $colorprincpal;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    font-size: 1.5rem;
+}
+
+
+.caracteristicas {
+    color: rgb(247, 203, 152);
+    margin-left: 6rem;
+
+}

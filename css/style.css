@@ -788,12 +788,19 @@ main .estilo-h1 {
 .productos-container:hover {
   margin-bottom: 2rem;
 }
+.productos-container .href-productos {
+  text-decoration: none;
+}
 .productos-container .animacion {
-  transition: 0.5s;
+  margin-top: 3rem;
+  transition: 0.7s;
 }
 .productos-container .animacion:hover {
   transform: translateY(-30px);
   transition: 0.5s;
+  box-shadow: 1px 16px 37px -2px rgba(0, 0, 0, 0.78);
+  -webkit-box-shadow: 1px 16px 37px -2px rgba(0, 0, 0, 0.78);
+  -moz-box-shadow: 1px 16px 37px -2px rgba(0, 0, 0, 0.78);
 }
 @media only screen and (max-width: 1500px) {
   .productos-container {
@@ -822,6 +829,64 @@ main .estilo-h1 {
 }
 .productos-container .base-productos {
   background-color: rgb(59, 61, 59);
+}
+
+.imagen {
+  width: 500px;
+  height: auto;
+}
+
+.estilo-titulo {
+  color: goldenrod;
+  margin-left: 3rem;
+  font-size: 2rem;
+}
+
+.estilo-descripcion {
+  color: goldenrod;
+  margin-top: 3rem;
+}
+
+.estilo-productos {
+  color: rgb(247, 203, 152);
+}
+
+.contenedor-principal {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.boton-container {
+  margin-top: 2rem;
+  width: auto;
+}
+
+.boton-productos {
+  transition: 0.3s;
+  color: goldenrod;
+  background-color: rgb(25, 26, 25);
+  padding: 0.5rem;
+  border: solid 1px goldenrod;
+  border-radius: 3px;
+}
+.boton-productos:hover {
+  transition: 0.3s;
+  color: rgb(25, 26, 25);
+  background-color: #25d366;
+  border-radius: 10px;
+  border: solid 1px #25d366;
+}
+
+.estilo-caracteristicas {
+  color: goldenrod;
+  margin-top: 2rem;
+  margin-left: 5rem;
+  font-size: 1.5rem;
+}
+
+.caracteristicas {
+  color: rgb(247, 203, 152);
+  margin-left: 6rem;
 }
 
 /*# sourceMappingURL=style.css.map */
